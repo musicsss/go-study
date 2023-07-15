@@ -13,4 +13,12 @@ func main() {
 	reverse(a[:])
 	fmt.Println(a)
 
+	s := []int{0, 1, 2, 3, 4, 5}
+	reverse(s[:2])
+	fmt.Println(s)
+	reverse(s[2:])
+	fmt.Println(s)
+	reverse(s)
+	fmt.Println(s)
+
 }
